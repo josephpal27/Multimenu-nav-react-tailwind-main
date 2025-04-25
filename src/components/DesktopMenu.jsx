@@ -13,7 +13,7 @@ export default function DesktopMenu({ menu }) {
       opacity: 1,
       rotateX: 0,
       transition: {
-        duration: 0.5,
+        duration: 0.3,
       },
       display: "block",
     },
@@ -21,7 +21,7 @@ export default function DesktopMenu({ menu }) {
       opacity: 0,
       rotateX: -15,
       transition: {
-        duration: 0.5,
+        duration: 0.3,
       },
       transitionEnd: {
         display: "none",
